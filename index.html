@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Interface</title>
+    <link rel="stylesheet" href="Chatboat.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-history" id="chatHistory"></div>
+        <div class="input-container">
+            <input type="text" id="userQuery" placeholder="Ask something..." onkeydown="checkEnter(event)">
+            <button id="sendBtn" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="chatboat.js"></script>
+</body>
+</html>
